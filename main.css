@@ -7,12 +7,13 @@
 }
 
 :root{
-    --gradient: linear-gradient(120deg, #AFD47F, #7C513D);
+    --gradient: linear-gradient(240deg, #AFD47F, #7C5131);
+    --g2 : linear-gradient(240deg, #FCFC1C, #FF6600);
     --card: #272524
 }
 
 body{
-    background: var(--gradient);
+    background: var(--g2);
     color: #fdfcfd;
     font-family: "Poppins", sans-serif; 
     height: 100vh;
@@ -85,7 +86,7 @@ body{
     height: 52px;
     translate: -50% -50%;
     border-radius: 50%;
-    background: var(--gradient);
+    background: var(--g2);
     transition: 0.3s;
     transform: translateY(0);
 }
